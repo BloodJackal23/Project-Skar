@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Presley\Documents\GitHub\Skar-vendattagames\Skar\Assets\Skar_WwiseSession\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Presley\Documents\GitHub\Skar-vendattagames\Skar\Assets\Skar_WwiseSession\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Presley\Documents\GitHub\Skar-vendattagames\Skar\Assets\Skar_WwiseSession\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Presley\Documents\GitHub\Skar-vendattagames\Skar\Assets\Skar_WwiseSession\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2894999373" Language="SFX">
+			<ObjectPath>\SoundBanks\Skar\Skar_MainSoundBank</ObjectPath>
+			<ShortName>Skar_MainSoundBank</ShortName>
+			<Path>Skar_MainSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3926520445" Name="Play_BattleMusic" ObjectPath="\Events\Skar_Music\Play_BattleMusic"/>
+				<Event Id="3373521485" Name="Play_FS_Dirt" ObjectPath="\Events\Test_Events\Play_FS_Dirt"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="40646268" Language="SFX">
+					<ShortName>FS_Dirt_R_05.wav</ShortName>
+					<Path>SFX\FS_Dirt_R_05_53CEE377.wem</Path>
+				</File>
+				<File Id="171353762" Language="SFX">
+					<ShortName>Battle intro 84 2out.wav</ShortName>
+					<Path>SFX\Battle intro 84 2out_9452F465.wem</Path>
+				</File>
+				<File Id="278709900" Language="SFX">
+					<ShortName>FS_Dirt_R_01.wav</ShortName>
+					<Path>SFX\FS_Dirt_R_01_53CEE377.wem</Path>
+				</File>
+				<File Id="521723113" Language="SFX">
+					<ShortName>FS_Dirt_R_02.wav</ShortName>
+					<Path>SFX\FS_Dirt_R_02_53CEE377.wem</Path>
+				</File>
+				<File Id="552123626" Language="SFX">
+					<ShortName>FS_Dirt_R_03.wav</ShortName>
+					<Path>SFX\FS_Dirt_R_03_53CEE377.wem</Path>
+				</File>
+				<File Id="606611187" Language="SFX">
+					<ShortName>FS_Dirt_L_04.wav</ShortName>
+					<Path>SFX\FS_Dirt_L_04_53CEE377.wem</Path>
+				</File>
+				<File Id="718985986" Language="SFX">
+					<ShortName>FS_Dirt_L_05.wav</ShortName>
+					<Path>SFX\FS_Dirt_L_05_53CEE377.wem</Path>
+				</File>
+				<File Id="767605388" Language="SFX">
+					<ShortName>FS_Dirt_R_04.wav</ShortName>
+					<Path>SFX\FS_Dirt_R_04_53CEE377.wem</Path>
+				</File>
+				<File Id="838839171" Language="SFX">
+					<ShortName>Battle loop 84 1in 2out.wav</ShortName>
+					<Path>SFX\Battle loop 84 1in 2out_9452F465.wem</Path>
+				</File>
+				<File Id="964813075" Language="SFX">
+					<ShortName>FS_Dirt_L_03.wav</ShortName>
+					<Path>SFX\FS_Dirt_L_03_53CEE377.wem</Path>
+				</File>
+				<File Id="1025793749" Language="SFX">
+					<ShortName>FS_Dirt_L_02.wav</ShortName>
+					<Path>SFX\FS_Dirt_L_02_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

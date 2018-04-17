@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20DA0056-70AC-4D9D-A953-FDACD31D1949}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Skar" ID="{20DA0056-70AC-4D9D-A953-FDACD31D1949}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Skar_MainSoundBank" ID="{C0C24F69-EBB7-4C95-9C86-1BDCB0B785A2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test_Events" ID="{A84A7F54-ADFC-45B3-B293-3098B3A055EE}" WorkUnitID="{A84A7F54-ADFC-45B3-B293-3098B3A055EE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Skar_Music" ID="{527B1586-D045-4F46-9D69-BA18E502A150}" WorkUnitID="{527B1586-D045-4F46-9D69-BA18E502A150}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

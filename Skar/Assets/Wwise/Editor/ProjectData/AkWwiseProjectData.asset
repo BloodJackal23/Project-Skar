@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f26f71e900d3c4385c54c8193b2570, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - Guid: '{0C87BB68-F367-49BB-9268-CC3F51667B99}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1132910069
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  autoPopulateEnabled: 1
+  AuxBusWwu:
+  - Guid: '{6665B393-8F63-4051-A891-0C0A530C14F8}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1130378276
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{7E0CE154-9F45-4CCC-B012-88B7B6F085EF}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1132789990
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List: []
+  - Guid: '{20DA0056-70AC-4D9D-A953-FDACD31D1949}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1132789990
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Skar.wwu
+    List:
+    - Guid: 694fc2c0b7eb954c9c861bdcb0b785a2
+      ID: -1399967923
+      Name: Skar_MainSoundBank
+      Path: Skar\Skar_MainSoundBank
+      PathAndIcons:
+      - ElementName: Skar
+        ObjectType: 12
+      - ElementName: Skar_MainSoundBank
+        ObjectType: 7
+  basePath: Audio\GeneratedSoundBanks
+  callbackManagerBufferSize: 4
+  CurrentPluginConfig: 
+  defaultPoolSize: 4096
+  EventWwu:
+  - Guid: '{C4FB09CC-7480-4059-9715-0DEE41E90ED8}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1127660875
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List: []
+  - Guid: '{527B1586-D045-4F46-9D69-BA18E502A150}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1127670882
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Skar_Music.wwu
+    List:
+    - Guid: a3966c3cd5a06346995da12c839056d9
+      ID: -368446851
+      Name: Play_BattleMusic
+      Path: Skar_Music\Play_BattleMusic
+      PathAndIcons:
+      - ElementName: Skar_Music
+        ObjectType: 12
+      - ElementName: Play_BattleMusic
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - Guid: '{A84A7F54-ADFC-45B3-B293-3098B3A055EE}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1127690898
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Test_Events.wwu
+    List:
+    - Guid: 04c1bec2fe423c49a59dc81f013abde2
+      ID: -921445811
+      Name: Play_FS_Dirt
+      Path: Test_Events\Play_FS_Dirt
+      PathAndIcons:
+      - ElementName: Test_Events
+        ObjectType: 12
+      - ElementName: Play_FS_Dirt
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /Skar_WwiseSession
+  - /Skar_WwiseSession/Events
+  - /Skar_WwiseSession/Events/Skar_Music
+  - /Skar_WwiseSession/Events/Test_Events
+  - /Skar_WwiseSession/SoundBanks
+  - /Skar_WwiseSession/SoundBanks/Skar
+  language: English(US)
+  lowerPoolSize: 2048
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  memoryCutoffThreshold: 0.95
+  preparePoolSize: 0
+  RtpcWwu:
+  - Guid: '{BB3CA651-7B49-41C4-B229-1714D76496C6}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1127705908
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  - Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1127720915
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    List:
+    - Guid: 59062ef746431c4ea1b1dab46a05101e
+      ID: 1351367891
+      Name: SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+    - Guid: 37fe2d2f9e4f944d83d853cca39781ad
+      ID: -1292209176
+      Name: SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+    - Guid: dc79aea23acaba4696529986c322a87b
+      ID: 1029930033
+      Name: SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+    - Guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      ID: -1646418679
+      Name: SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+    - Guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      ID: -447042342
+      Name: SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+    - Guid: ab9048a3d5b92645a64d5290c43ef2dc
+      ID: 822163944
+      Name: SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+    - Guid: efeb291393a12e47a38c64668b494879
+      ID: -1220270574
+      Name: SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+    - Guid: db8c3fe9d1063747acaf7cd44bbed783
+      ID: -579304704
+      Name: SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+    - Guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      ID: -1091570167
+      Name: SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+    - Guid: 197ba8edaa73a0409f192073606db710
+      ID: -134719478
+      Name: SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+  StateWwu:
+  - Guid: '{1CCD18D6-3854-49AE-9B4B-AD64A7E52DA4}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1132820003
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  streamingPoolSize: 1024
+  SwitchWwu:
+  - Guid: '{62A7B04E-C175-49F7-8C4E-04A5D4E656BF}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1132870033
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{241730F9-310B-4AEE-8A4E-E8303A1D7BFA}'
+    m_lastTimePart2: -1999268749
+    m_lastTimePsrt1: 1132900063
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
