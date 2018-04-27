@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 public class StatesManager : MonoBehaviour {
     public enum MoveState
-{       
+    {       
 	     Idle,
 		 isJumping,
 		 isMoving,
 		 isInDash,
 		 isAttacking
-}
+    }
     public bool CanMove;
+    public bool canAttack;
 	public bool isAttacking;
 	public bool isGrounded;
 	public MoveState moveState;
